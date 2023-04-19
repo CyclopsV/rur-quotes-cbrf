@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"time"
 
@@ -18,4 +19,5 @@ func main() {
 		}
 		log.Println(v)
 	}
+	fmt.Scanf(" ")
 }
